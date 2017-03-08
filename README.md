@@ -9,7 +9,7 @@ This is supplied from CSS.
 
 For example, Just use below property.
 ```css
-background-image: url(image.jpg);
+background-image: url(./images/image.jpg);
 background-color: #8f1313;
 ```
 But, Black and white are seen like to not applied blend.
