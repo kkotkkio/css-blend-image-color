@@ -69,16 +69,16 @@
 
 
 .suede {
-  background-image: url(./suede3.jpg);
+  background-image: url(../images/suede3.jpg);
 }
 .glossy {
-  background-image: url(./glossy1.jpg);
+  background-image: url(../images/glossy1.jpg);
 }
 .sheep {
-  background-image: url(./sheep.jpg);
+  background-image: url(../images/sheep.jpg);
 }
 .cow {
-  background-image: url(./cow.jpg);
+  background-image: url(../images/cow.jpg);
 }
 
 .burgundy {
