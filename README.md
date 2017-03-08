@@ -12,8 +12,7 @@ For example, Just use below property.
 background-image: url(image.jpg);
 background-color: #8f1313;
 ```
-
-But, Black and white don't apply blend.
+But, Black and white are seen like to not applied blend.
 These is just seen only original color.
 
 So, I set black to #333. This is bright a little more than #000(black).
@@ -23,14 +22,14 @@ So, I set black to #333. This is bright a little more than #000(black).
 }
 ```
 
-And, White don't apply blend too.
+And, White is too not applied blend.
 So, I'm changed blend-mode of below.
 ```css
 background-blend-mode: luminosity;
 ```
 If you change blend-mode to luminosity, You'll see better.
 
-If you feel laking about white, Try to change brightness.
+If you feel like lack about white, Try to change brightness.
 ```css
 -webkit-filter: brightness(1.10);
 ```
