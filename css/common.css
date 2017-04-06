@@ -55,7 +55,18 @@
   border-radius: 50%;
   /*box-shadow: 0px 0px 5px #666;*/
 }
-.blended span {
+.blended_light {
+  float:left;
+  margin-top: 0px;
+  position: relative;
+  width: 100%; height: auto;
+  margin-left: 0px;
+  background-size: 200px;
+  background-blend-mode: color-burn;
+  border-radius: 50%;
+  /*box-shadow: 0px 0px 5px #666;*/
+}
+.blended span, .blended_light span {
   position: absolute;
   width: 200px;
   text-align: center;
@@ -69,10 +80,43 @@
 
 
 .suede {
-  background-image: url(../images/suede3.jpg);
+  background-image: url(../images/suede.jpg);
 }
 .glossy {
-  background-image: url(../images/glossy1.jpg);
+  background-image: url(../images/glossy.jpg);
+}
+.cow_light {
+  position: absolute;
+  left: 0;
+  background-size: 170px;
+  width: 170px;
+  height: 170px;
+  border-radius: 50%;
+  background-image: url(../images/cow.jpg);
+  opacity: 1;
+}
+.suede_light {
+  position: absolute;
+  left: 0;
+  background-size: 100%;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-image: url(../images/suede.jpg);
+  opacity: 1;
+}
+.glossy_light {
+  position: absolute;
+  left: 0;
+  background-size: 100%;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-image: url(../images/glossy2.png);
+  opacity: 0.60;
+}
+.color_burn {
+  background-blend-mode: color-burn;
 }
 .sheep {
   background-image: url(../images/sheep.jpg);
